@@ -1,0 +1,10 @@
+.label {
+  @apply flex flex-col;
+}
+.label span {
+  @apply text-xs text-accents-6;
+}
+
+.input {
+  @apply bg-accents-2 border border-accents-1 shadow-sm focus-within:shadow-md rounded-md h-12 p-2;
+}

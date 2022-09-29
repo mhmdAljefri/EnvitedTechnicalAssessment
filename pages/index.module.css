@@ -1,0 +1,25 @@
+.heroTitle {
+  @apply font-bold text-3xl leading-[30px] flex flex-col justify-center items-center text-primary mt-16 mb-4;
+  /* Larg Screens */
+  @apply md:text-[64px] md:leading-[64px];
+}
+
+.gradientText {
+  background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.heroSubTitle {
+  @apply text-center text-accents-6 mb-9 px-7 md:px-11;
+}
+
+.heroImageWrapper {
+  @apply text-center max-w-md mx-auto;
+}
+
+.createEventButton {
+  @apply w-[187px] md:w-[320px] mx-auto block mb-3 md:mb-6;
+}

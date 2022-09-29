@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: rgb(36 13 87);
+    --primary-2: rgb(80 31 193);
+    --primary-3: rgb(132 86 236);
+    --primary-3: rgb(132 86 236);
+    --primary-4: rgb(232 123 248);
+
+    --secondary: rgb(204 182 255);
+    --secondary-2: rgb(237 229 255);
+    --secondary-3: rgb(246 242 255);
+
+    --danger: rgb(230 20 69);
+    --danger-light: rgb(255 215 224);
+
+    --success: rgb(0 128 94);
+    --success-light: rgb(211 255 226);
+
+    --accents-1: rgb(251 250 255);
+    --accents-2: rgb(242 242 242);
+    --accents-3: rgb(224 224 224);
+    --accents-4: rgb(189 189 189);
+    --accents-5: rgb(130 130 130);
+    --accents-6: rgb(79 79 79);
+  }
+
+  html, body {
+    background: var(--secondary-3)
+  }
+}

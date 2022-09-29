@@ -1,0 +1,23 @@
+.root {
+  @apply font-bold rounded-[10px];
+
+}
+
+/* colors */
+.gradient {
+  @apply bg-gradient-to-r from-primary-3 to-primary-4 text-white;
+}
+
+/* sizes */
+.sm {
+  /* TODO add styles */
+}
+.md {
+  /* TODO add styles */
+}
+.lg {
+  @apply h-[50px] px-4 md:h-14 text-base;
+}
+.xl {
+    /* TODO add styles */
+}

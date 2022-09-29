@@ -1,0 +1,20 @@
+.root {
+  @apply bg-accents-1 min-h-screen;
+}
+
+.eventWrapper {
+  @apply flex flex-col;
+  /* mid screens */
+  @apply md:max-w-2xl md:mx-auto md:px-5 md:py-20;
+  /* xl screens */
+  @apply xl:flex-row-reverse xl:py-48 xl:max-w-6xl xl:justify-between xl:gap-16;
+}
+
+/* image and text wrappers */
+.eventNestedWrapper {
+  @apply xl:w-1/2;
+}
+
+.textSection {
+  @apply px-5 md:px-0;
+}

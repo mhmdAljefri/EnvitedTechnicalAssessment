@@ -1,0 +1,14 @@
+
+.heading {
+  @apply text-primary font-bold text-4xl leading-8 pt-3;
+  /* md screens */
+  @apply md:text-5xl md:leading-[55px] md:mb-4 md:pt-9;
+  /* xl screens */
+}
+
+
+.subHeading {
+  @apply text-accents-5 font-normal text-sm mb-7;
+  /* md screens */
+  @apply md:text-lg md:mb-11;
+}

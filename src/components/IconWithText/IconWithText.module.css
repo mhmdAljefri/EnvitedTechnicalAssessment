@@ -1,0 +1,21 @@
+.root {
+  @apply flex gap-5 p-2 my-2 relative;
+}
+
+.iconWrapper {
+  @apply flex justify-center items-center w-14 h-14 rounded-lg bg-white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  @apply text-primary font-bold text-lg;
+}
+
+.text {
+  @apply text-accents-6 font-normal text-lg;
+}
+
+.arrow {
+  @apply absolute flex w-8 h-11 top-3 justify-center items-center;
+  inset-inline-end: 5px; /* support rtl */
+}
